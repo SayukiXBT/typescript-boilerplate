@@ -1,0 +1,28 @@
+{
+    "name": "ts_boilerplate",
+    "version": "0.1.0",
+    "description": "Quick start for typescript projects",
+    "main": "./dist/index.js",
+    "author": "Sayuki0x <me@sayuki0x.net>",
+    "license": "AGPL-3.0",
+    "private": true,
+    "scripts": {
+        "start": "npx ts-node ./src/index.ts",
+        "build": "node ./node_modules/typescript/bin/tsc",
+        "format": "node ./node_modules/prettier/bin-prettier.js '**/*.{ts,tsx,json,md}' --tab-width 4 --trailing-comma es5 --ignore-path .gitignore  --arrow-parens always --write",
+        "lint": "npx eslint . --ext .ts"
+    },
+    "devDependencies": {
+        "@types/node": "^20.10.6",
+        "@typescript-eslint/eslint-plugin": "^6.16.0",
+        "@typescript-eslint/parser": "^6.16.0",
+        "eslint": "^8.56.0",
+        "prettier": "^3.1.1",
+        "typescript": "^5.3.3"
+    },
+    "dependencies": {
+        "dotenv": "^16.3.1",
+        "electron-log": "^5.0.3",
+        "ts-node": "^10.9.2"
+    }
+}
