@@ -9,7 +9,7 @@
     "scripts": {
         "start": "npx ts-node ./src/index.ts",
         "build": "node ./node_modules/typescript/bin/tsc",
-        "format": "node ./node_modules/prettier/bin-prettier.js '**/*.{ts,tsx,json,md}' --tab-width 4 --trailing-comma es5 --ignore-path .gitignore  --arrow-parens always --write",
+        "format": "npx prettier . --ignore-path .gitignore --write --tab-width 4",
         "lint": "npx eslint . --ext .ts"
     },
     "devDependencies": {
