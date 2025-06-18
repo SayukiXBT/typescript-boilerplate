@@ -1,4 +1,4 @@
-import log from "electron-log";
+import { log } from "@sayukixbt/log";
 import { loadEnv } from "./utils/loadEnv";
 
 // load the environment variables

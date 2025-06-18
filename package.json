@@ -21,8 +21,8 @@
         "typescript": "^5.3.3"
     },
     "dependencies": {
+        "@sayukixbt/log": "^0.0.2",
         "dotenv": "^16.3.1",
-        "electron-log": "^5.0.3",
         "ts-node": "^10.9.2"
     }
 }
